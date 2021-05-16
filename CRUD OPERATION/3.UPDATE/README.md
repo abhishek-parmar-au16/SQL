@@ -1,5 +1,7 @@
-# READ SYNTAX
+# UPDATE SYNTAX
 
-SELECT * FROM products WHERE id=5
+UPDATE products
+SET city = "Pune"
+WHERE id = 4
 
 
