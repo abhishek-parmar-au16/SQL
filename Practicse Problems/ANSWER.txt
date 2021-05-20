@@ -1,0 +1,51 @@
+1. Find all actors whose last names contain the letters LI. Also, order the rows
+by last name and first name, in that order.
+
+SELECT actor_id, first_name, last_name 
+FROM actor
+WHERE last_name LIKE '%LI%'
+ORDER BY last_name, first_name;
+
+
+2. List the last names of actors, as well as how many actors have that last name.
+
+SELECT last_name, COUNT(*) AS `Count`
+FROM actor
+GROUP BY last_name;
+
+3. The actor ‘HARPO WILLIAMS’was accidentally entered in the actor table as
+’GROUCHO WILLIAMS’. Write a query to fix the record.
+
+UPDATE actor 
+SET first_name= 'HARPO'
+WHERE first_name='GROUCHO' AND last_name='WILLIAMS';
+
+4. Use JOIN to display the first and last names, as well as the address, of each
+staff member. Use the tables staff and address.
+
+SELECT s.first_name, s.last_name, a.address
+FROM staff s LEFT JOIN address a ON s.address_id = a.address_id;
+
+5. Use JOIN to display the total amount rung up by each staff member in August
+of 2005. Use tables staff and payment.
+
+SELECT s.first_name, s.last_name, SUM(p.amount) AS 'TOTAL'
+FROM staff s LEFT JOIN payment p  ON s.staff_id = p.staff_id
+GROUP BY s.first_name, s.last_name;
+
+6. How many copies of the film Hunchback Impossible exist in the inventory
+system? Write a query to find the same.
+
+SELECT c.first_name, c.last_name, SUM(p.amount) AS 'TOTAL'
+FROM customer c LEFT JOIN payment p ON c.customer_id = p.customer_id
+GROUP BY c.first_name, c.last_name
+ORDER BY c.last_name
+
+
+7. Using the tables payment and customer and the JOIN command, list the total
+paid by each customer. List the customers alphabetically by last name.
+
+SELECT c.first_name, c.last_name, SUM(p.amount) AS 'TOTAL'
+FROM customer c LEFT JOIN payment p ON c.customer_id = p.customer_id
+GROUP BY c.first_name, c.last_name
+ORDER BY c.last_name
