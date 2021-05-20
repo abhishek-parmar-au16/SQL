@@ -1,4 +1,4 @@
-Write SQL queries for the # sakila database which is a
+Write SQL queries for the #sakila database which is a
 sample database when you install MySQL.
 
 1. Find all actors whose last names contain the letters LI. Also, order the rows
