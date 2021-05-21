@@ -1,1 +1,1 @@
-Primary Key
+Primary Key and secondary key
