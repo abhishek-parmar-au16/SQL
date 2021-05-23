@@ -1,3 +1,27 @@
+Why use Primary Key?
+
+Here are the cons/benefits of using primary key:
+
+The main aim of the primary key is to identify each and every record in the database table.
+You can use a primary key when you do not allow someone to enter null values.
+If you delete or update records, the action you specified will be undertaken to make sure data integrity.
+Perform restrict operation to rejects delete or update operation for the parent table.
+Data are organized in a sequence of clustered index whenever you physically organize DBMS table.
+
+
+Why use Foreign Key?
+Here are the important reasons of using foreign key:
+
+Foreign keys help you to migrate entities using a primary key from the parent table.
+A foreign key enables you to link two or more tables together.
+It makes your database data consistent.
+A foreign key can be used to match a column or combination of columns with primary key in a parent table.
+SQL foreign key constraint is used to make sure the referential integrity of the data parent to match values in the child table.
+
+
+
+
+
 #Key Differnce
 
 
