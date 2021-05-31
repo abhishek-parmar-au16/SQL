@@ -1,18 +1,18 @@
 <h3>SQL Hosting</h3>
 
-SQL Hosting
+<h4>SQL Hosting<h4>
 If you want your web site to be able to store and retrieve data from a database, your web server should have access to a database-system that uses the SQL language.
 
 If your web server is hosted by an Internet Service Provider (ISP), you will have to look for SQL hosting plans.
 
 The most common SQL hosting databases are MS SQL Server, Oracle, MySQL, and MS Access.
 
-MS SQL Server
+<h4>MS SQL Server</h4>
 Microsoft's SQL Server is a popular database software for database-driven web sites with high traffic.
 
 SQL Server is a very powerful, robust and full featured SQL database system.
 
-Oracle
+<h4>Oracle</h4>
 Oracle is also a popular database software for database-driven web sites with high traffic.
 
 Oracle is a very powerful, robust and full featured SQL database system.
