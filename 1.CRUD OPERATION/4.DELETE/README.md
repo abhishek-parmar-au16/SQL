@@ -1,6 +1,6 @@
 # DELETE SYNTAX
 
-DELETE FROM products
+DELETE FROM product
 WHERE id = 3
 
 
