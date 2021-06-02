@@ -19,7 +19,7 @@ A foreign key can be used to match a column or combination of columns with prima
 SQL foreign key constraint is used to make sure the referential integrity of the data parent to match values in the child table.
 
 
-
+FnWn4GLoL3KBhxaG
 
 
 #Key Differnce
