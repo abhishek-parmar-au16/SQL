@@ -1,9 +1,9 @@
-Write SQL queries for the #sakila database which is a
+Write SQL queries for the <h4>sakila</h4> database which is a
 sample database when you install MySQL.
 
 1. Find all actors whose last names contain the letters LI. Also, order the rows
 by last name and first name, in that order.
-2. List the last names of actors and how many actors have that last name.
+2. List the last names of actors ,as well as how many actors have that last name.
 3. The actor ‘HARPO WILLIAMS’was accidentally entered in the actor table as
 ’GROUCHO WILLIAMS’. Write a query to fix the record.
 4. Use JOIN to display the first and last names, as well as the address, of each
