@@ -34,4 +34,3 @@ SUBSTRING		Extracts a substring from a string (starting at any position)
 SUBSTRING_INDEX		Returns a substring of a string before a specified number of delimiter occurs
 TRIM			Removes leading and trailing spaces from a string
 UCASE			Converts a string to upper-case
-UPPER			Converts a string to upper-case
