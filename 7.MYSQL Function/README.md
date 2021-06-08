@@ -1,7 +1,7 @@
 <h2>MySQL String Functions</h2>
 
 
-<h4>Function</h4>	<h4>Description</h4>
+<h3>Function</h3>	<h4>Description</h4>
 ASCII			Returns the ASCII value for the specific character
 CHAR_LENGTH		Returns the length of a string (in characters)
 CHARACTER_LENGTH	Returns the length of a string (in characters)
