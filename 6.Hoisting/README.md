@@ -1,4 +1,4 @@
-<h2>SQL Hosting</h2>
+<h1>SQL Hosting</h1>
 
 <h4>SQL Hosting<h4>
 If you want your web site to be able to store and retrieve data from a database, your web server should have access to a database-system that uses the SQL language.
