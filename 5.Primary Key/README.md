@@ -1,4 +1,4 @@
-<h1>Why use Primary Key</h1>
+<h2>Why use Primary Key</h2>
 
 Here are the cons/benefits of using primary key:
 
