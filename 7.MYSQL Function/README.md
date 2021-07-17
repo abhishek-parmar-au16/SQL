@@ -1,4 +1,4 @@
-<h2>MySQL String Functions</h2>
+<h1>MySQL String Functions</h1>
 
 
 <h3>Function</h3>	<h4>Description</h4>
